@@ -104,6 +104,7 @@ Same as slide
 
 ---?image=/assets/images/slides/Slide6.JPG
 @title[Requirements for Your Driver ]
+<p align="center"><span class="gold" ><b>Requirements for Your Driver </b></span></p>
 @snap[north-west span-80 ]
 <br>
 <br>
@@ -111,8 +112,10 @@ Same as slide
 <br>
 @snapend
 
+
+@snap[north-west span-80 ]
 <br>
-<p align="center"><span class="gold" ><b>Requirements for Your Driver </b></span></p>
+<br>
 <span style="font-size:0.9em" >Using UEFI Driver Wizard</span>
 <ul>
    <li><span style="font-size:0.7em" >UEFI Device Driver </span></li>
@@ -123,6 +126,7 @@ Same as slide
    <li><span style="font-size:0.7em" >Test console device </span></li>
    <li><span style="font-size:0.7em" >Option to produce strings & forms for setup  </span></li>
 </ul>
+@snapend
 
 Note:
 
