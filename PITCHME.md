@@ -150,7 +150,6 @@ Note:
 <br>
 <br>
 <br>
-<br>
 <p style="line-height:50%" ><br><br>&nbsp;</p>
 @box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Basic driver libraries/headers<br>&nbsp;</span></p>)
 <br>
@@ -174,7 +173,6 @@ Note:
 
 
 @snap[north-east span-90 fragment]
-<br>
 <br>
 <br>
 <br>
