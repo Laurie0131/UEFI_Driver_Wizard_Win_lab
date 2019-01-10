@@ -181,7 +181,7 @@ Note:
 <br>
 <br>
 <p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
-@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Error values until ported EFI_UNSUPPORTED, EFI_DEVICE_ERROR<br>&nbsp;</span></p>)
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:80%" ><span style="font-size:0.9em; font-weight: bold;" >Error values until ported EFI_UNSUPPORTED, EFI_DEVICE_ERROR<br>&nbsp;</span></p>)
 <br>
 @snapend
 
