@@ -108,7 +108,7 @@ Same as slide
 @snap[north-west span-80 ]
 <br>
 <br>
-@box[bg-grey-25 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-grey-25 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
 <br>
 @snapend
 
@@ -116,7 +116,8 @@ Same as slide
 @snap[north-west span-80 ]
 <br>
 <br>
-<span style="font-size:0.9em" >Using UEFI Driver Wizard</span>
+<br>
+<span style="font-size:0.9em" >&nbsp;&nbsp;&nbsp;Using UEFI Driver Wizard</span>
 <ul>
    <li><span style="font-size:0.7em" >UEFI Device Driver </span></li>
    <li><span style="font-size:0.7em" >UEFI Version 2.7 (0x00020046) </span><br><span style="font-size:0.6em" >`#define EFI_2_70_SYSTEM_TABLE_REVISION ((2<<16) | (70DEC))` </span></li>
@@ -139,12 +140,15 @@ Note:
 @snap[north-west span-60 fragment]
 <br>
 <br>
+<br>
 @box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Proper UEFI driver entry point <br>&nbsp;</span></p>)
 <br>
 @snapend
 
 
 @snap[north-east span-65 fragment]
+<br>
+<br>
 <br>
 <br>
 <p style="line-height:50%" ><br><br>&nbsp;</p>
@@ -161,6 +165,8 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Skeletons for common driver functions<br>&nbsp;</span></p>)
 <br>
 @snapend
@@ -168,6 +174,9 @@ Note:
 
 
 @snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
