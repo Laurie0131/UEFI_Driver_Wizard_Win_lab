@@ -1,6 +1,10 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[UEFI_Driver_Wizard_Win_Lab]
-<br><br><br><br><br>
+<br><br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:
+https://gitpitch.com/tianocore-training/UEFI_Driver_Wizard_Win_Lab/master#/
+</span>
+<br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### UEFI Driver Wizard Lab - Windows
@@ -100,6 +104,13 @@ Same as slide
 
 ---?image=/assets/images/slides/Slide6.JPG
 @title[Requirements for Your Driver ]
+@snap[north-west span-80 ]
+<br>
+<br>
+@box[bg-grey-25 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > <br><br><br><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@snapend
+
 <br>
 <p align="center"><span class="gold" ><b>Requirements for Your Driver </b></span></p>
 <span style="font-size:0.9em" >Using UEFI Driver Wizard</span>
@@ -114,6 +125,69 @@ Same as slide
 </ul>
 
 Note:
+
+
+
+---
+@title[Template File Contents]
+<p align="right"><span class="gold" ><b>Template File Contents </b></span></p>
+
+@snap[north-west span-60 fragment]
+<br>
+<br>
+@box[bg-gold2 text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Proper UEFI driver entry point <br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-east span-65 fragment]
+<br>
+<br>
+<p style="line-height:50%" ><br><br>&nbsp;</p>
+@box[bg-royal text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Basic driver libraries/headers<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+@snap[north-west span-70 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" > Skeletons for common driver functions<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+@snap[north-east span-90 fragment]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:50%" ><br>&nbsp;<br>&nbsp;</p>
+@box[bg-navy text-white rounded my-box-pad2  ](<p style="line-height:70%" ><span style="font-size:0.9em; font-weight: bold;" >Error values until ported EFI_UNSUPPORTED, EFI_DEVICE_ERROR<br>&nbsp;</span></p>)
+<br>
+@snapend
+
+
+
+
+
+Note:
+- Establishes a proper UEFI Driver Entry Point
+- References to basic driver libraries/headers based on Driver Wizard form input
+- Inserted in .INF, .H and .C files
+- Skeletons for common driver functions
+- Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
+- Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
+
 
 
 ---?image=/assets/images/slides/Slide7.JPG
