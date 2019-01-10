@@ -199,66 +199,6 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide7.JPG
-<!-- .slide: data-transition="none" -->
-@title[Template File Contents]
-<p align="right"><span class="gold" ><b>Template File Contents </b></span></p>
-
-Note:
-- Establishes a proper UEFI Driver Entry Point
-- References to basic driver libraries/headers based on Driver Wizard form input
-- Inserted in .INF, .H and .C files
-- Skeletons for common driver functions
-- Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
-- Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
-
-
-
-+++?image=/assets/images/slides/Slide8.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Template File Contents 02]
-<p align="right"><span class="gold" ><b>Template File Contents </b></span></p>
-
-Note:
-- Establishes a proper UEFI Driver Entry Point
-- References to basic driver libraries/headers based on Driver Wizard form input
-- Inserted in .INF, .H and .C files
-- Skeletons for common driver functions
-- Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
-- Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
-
-
-+++?image=/assets/images/slides/Slide9.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Template File Contents 03]
-<p align="right"><span class="gold" ><b>Template File Contents </b></span></p>
-
-Note:
-- Establishes a proper UEFI Driver Entry Point
-- References to basic driver libraries/headers based on Driver Wizard form input
-- Inserted in .INF, .H and .C files
-- Skeletons for common driver functions
-- Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
-- Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
-
-
-+++?image=/assets/images/slides/Slide10.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Template File Contents 04]
-<p align="right"><span class="gold" ><b>Template File Contents </b></span></p>
-
-Note:
-- Establishes a proper UEFI Driver Entry Point
-- References to basic driver libraries/headers based on Driver Wizard form input
-- Inserted in .INF, .H and .C files
-- Skeletons for common driver functions
-- Includes comments based on information from the Driver Writer’s Guide for UEFI 2.3.1
-- Functions may return error values until ported : (EFI_UNSUPPORTED, EFI_DEVICE_ERROR)
-
-
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Lab 1: Create a UEFI Driver section]
 <br>
@@ -282,7 +222,7 @@ Note:
 ---?image=/assets/images/slides/Slide12.JPG
 @title[Lab 1: Install UEFI Driver Wizard ]
 <p align="right"><span class="gold" ><b>Lab 1: Install UEFI Driver Wizard</b></span></p>
-<span style="font-size:0.8em" >First setup for building EDK II for Nt32, See <a href="https://gitpitch.com/Laurie0131/Platform_Build_LAB/master#/2">Lab Setup</a>  </span></li>
+<span style="font-size:0.8em" >First setup for building EDK II for Nt32, See <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">Lab Setup</a>  </span></li>
 <div class="left1">
 <ul style="list-style-type:none">
   <li><span style="font-size:0.8em" >Install UEFI Driver Wizard</span></li><br>
