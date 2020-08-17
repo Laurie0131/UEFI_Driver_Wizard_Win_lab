@@ -8,6 +8,8 @@ https://gitpitch.com/tianocore-training/UEFI_Driver_Wizard_Win_Lab/master#/
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### UEFI Driver Wizard Lab - Windows
+<span style="font-size:0.75em" >See also
+<a href="https://github.com/Tianocore-training/UEFI_Driver_Wizard_Win_lab/blob/master/LabGuide.md">LabGuide.md </a> for Copy & Paste examples in labs</span>
 
 <br>
 <span style="font-size:0.75em" ><a href='http://www.tianocore.org'>tianocore.org</a></span>
@@ -89,7 +91,7 @@ Note:
 <span style="font-size:01.0em" ><font color="#92D050">Requirements and Options </font></span><br>
 <br>
 <ul style="list-style-type:disc">
-  <li><span style="font-size:0.8em" >Work space  must contain BaseTools, MdePkg & MdeModulePkg Packages from <a href="https://github.com/tianocore/edk2">Tianocore.org</a> for Driver development on Tianocore.org </span> </li>
+  <li><span style="font-size:0.8em" >Work space  must contain BaseTools, MdePkg & MdeModulePkg Packages from <a href="https://github.com/tianocore/edk2">Tianocore.org edk2</a> for Driver development on Tianocore.org </span> </li>
   <li><span style="font-size:0.8em" >This lab uses previous lab’s setup w/ Windows  `C:/FW/src/edk2`   </span> </li>
   <li><span style="font-size:0.8em" >For Linux, Python scripts from  <a href="https://github.com/tianocore/edk2-share/tree/master/DriverDeveloper/UefiDriverWizard">Github Link </a> then use instructions from README for Python and wxPython versions to install then run</span> </li>
   <ul style="list-style-type:none">
